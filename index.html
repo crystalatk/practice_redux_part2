@@ -5,8 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Redux</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>Your banking account balances</h1>
+    <hr>
+    <br>
+    <p>Checking: $ <span id='checkingBalance'></span></p>
+    <p>Savings: $ <span id='savingsBalance'></span></p>
+    <br>
+    <hr>
+    <h2>Deposit</h2>
+    <br>
+    <p>$ <input class="my-input" id="amountDeposit" type="number" placeholder="Enter an amount..." /></p>
+    <button class="button" type="button" id="checkingDeposit">Checking</button>
+    <button class="button" type="button" id="savingsDeposit">Savings</button>
+    <br>
+    <hr>
+    <br>
+    <h2>Withdraw</h2>
+    <br>
+    <p>$ <input class="my-input" id="amountWithdraw" type="number" placeholder="Enter an amount..." /></p>
+    <button class="button" type="button" id="checkingWithdraw">Checking</button>
+    <button class="button" type="button" id="savingsWithdraw">Savings</button>
 </body>
+<script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+<script src="index.js" type="module"></script>
 </html>
