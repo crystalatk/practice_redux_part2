@@ -1,0 +1,26 @@
+{
+  "name": "practice_redux_part2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crystalatk/practice_redux_part2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crystalatk/practice_redux_part2/issues"
+  },
+  "homepage": "https://github.com/crystalatk/practice_redux_part2#readme",
+  "description": "",
+  "dependencies": {
+    "redux": "^4.0.5"
+  }
+}
